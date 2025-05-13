@@ -71,6 +71,26 @@ The `main.py` file contains the core code for the service:
    - Once running, the service is accessible at [http://127.0.0.1:8000](http://127.0.0.1:8000).
    - You can check the service status by sending a GET request to `/status`.
    - To obtain a prediction, send a POST request to `/predict`, passing a JSON object with the parameters defined in the `Form` class.
+  
+## `predictions.csv`
+
+During the final model evaluation, the predictions and true labels from the last validation fold are saved to a file named `predictions.csv`.
+
+### Contents
+
+- **`true_flag`** — the actual target value (0 or 1)  
+- **`proba`** — the predicted probability that the target equals 1
+
+### Usage
+
+This file can be used for:
+
+- ROC AUC calculation  
+- Threshold tuning  
+- Building custom business logic based on probability scores
+
+You can find this file in the root directory after training is completed.
+
 
 ## Conclusion
 
