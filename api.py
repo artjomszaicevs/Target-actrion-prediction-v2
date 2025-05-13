@@ -35,7 +35,6 @@ class InputRecord(BaseModel):
 class Prediction(BaseModel):
     prediction: float
 
-# Загружаем модель
 with open('target_action_prediction_model.pkl', 'rb') as file:
     model = dill.load(file)
 
