@@ -1,7 +1,7 @@
 # Client Action Prediction Project
 
 Yo can download data here:
-### [data](https://drive.google.com/drive/folders/1qfLdx52zPDkdnPmhy3w3cttdbcXk9H-r?usp=sharing)
+### [data](https://drive.google.com/drive/folders/1G-X_4ngzcI90O_AYfP4lRWSXNYt6lZPo?usp=sharing)
 
 ## Description
 
