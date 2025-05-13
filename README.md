@@ -1,5 +1,8 @@
 # Client Action Prediction Project
 
+Yo can download data here:
+### [data]([https://drive.google.com/drive/folders/1-pwcPyKBsz49qDfn42VHirtutonfr_Mt?usp=sharing](https://drive.google.com/drive/folders/1qfLdx52zPDkdnPmhy3w3cttdbcXk9H-r?usp=sharing))
+
 ## Description
 
 This project demonstrates essential Data Science and Machine Learning skills. The primary goal is to create a model that predicts whether a client will take a target action on a website (e.g., make a purchase, register, etc.) based on client characteristics such as acquisition method, device, operating system, browser, and location. The model was trained on a large dataset and deployed as a web service using FastAPI.
