@@ -87,9 +87,6 @@ class TargetActionPrediction:
         self.target_column = target_column
 
     def fit(self, X_raw):
-        # y_raw: DataFrame с id и flag
-        # X_raw: полный raw (26 млн строк)
-
         cat_features = ['utm_source', 'utm_medium', 'utm_campaign',
                        'utm_adcontent', 'device_category', 'device_brand', 'device_browser',
                        'geo_country', 'geo_city', 'hit_type', 'hit_page_path',
